@@ -19,7 +19,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Keren-Aywila/NFT-preview.git]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://keren-aywila.github.io/NFT-preview/]
 
 ### Built with
 
