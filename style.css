@@ -1,0 +1,115 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primarySoftBlue: hsl(215, 51%, 70%);
+    --primaryCyan: hsl(178, 100%, 50%);
+    --neutralVeryDarkBlue1: hsl(217, 54%, 11%);
+    --neutralVeryDarkBlue2: hsl(216, 50%, 16%);
+    --neutralVeryDarkBlue2: hsl(215, 32%, 27%);
+    --neutralWhite: hsl(0, 0%, 100%);
+}
+body{
+    font-family: 'Outfit', sans-serif;
+}
+img{
+    width: 100%;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--neutralVeryDarkBlue1);
+    padding: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--neutralVeryDarkBlue2);
+    width: 100%;
+    max-width: 300px;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+    padding: 1.2rem;
+}
+.image-holder img{
+    border: none;
+    border-radius: 5px;
+}
+h3{
+    color: var(--neutralWhite);
+    font-weight: 600;
+}
+p{
+    color: var(--primarySoftBlue);
+    font-weight: 300;
+}
+/*info section*/
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.ethereum img{
+    width: 9px;
+}
+.ethereum p{
+    color: var(--primaryCyan);
+    font-weight: 400;
+}
+.date img{
+    width: 13px;
+    margin-left: 15px;
+}
+.date p{
+    font-weight: 400;
+}
+
+/*info section end*/
+hr{
+ border:0.1px solid var(--primarySoftBlue);
+}
+
+.profile{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.avatar-holder img{
+    width: 30px;
+    border: 1px solid var(--neutralWhite);
+    border-radius: 50px
+}
+.profile p span{
+    color: var(--neutralWhite);
+}
+/*footer style*/
+.attribution{
+    color: var(--neutralWhite);
+}
+.attribution a{
+    color: var(--neutralWhite);
+    text-decoration: none;
+}
+.attribution a:hover{
+    color: var(--primarySoftBlue);
+}
+@media only screen and (min-width: 1440px) {
+    .container{
+        width: 100%;
+        max-width: 400px;
+        height: 600px;
+        border: none;
+        border-radius: 10px;
+        padding: 1.2rem;
+    }
+    h3{
+        font-size: 25px;
+    }
+  }
+
+
